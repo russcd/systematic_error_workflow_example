@@ -10,6 +10,7 @@ the snakefile is provided in the usher repository.
     cd usher/workflows/
 
 get the files from this example.  
+
     wget 
   
 get all samples from the latest public tree.  
