@@ -34,5 +34,5 @@ swap tree file name to match the input expected from our Snakefile.
   
 now run our workflow but add the sanger samples.  
     
-    snakemake --use-conda --cores 4 --config FASTA="<FASTA>" RUNTYPE="systematic"
+    snakemake --use-conda --cores 4 --config FASTA="[FASTA]" RUNTYPE="systematic"
   
