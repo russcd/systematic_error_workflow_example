@@ -9,9 +9,10 @@ the snakefile is provided in the usher repository.
     git clone https://github.com/yatisht/usher.git  
     cd usher/workflows/
 
-get the files from this example.  
+get the files from this example and rename them as appropriate to match expectations of snakefile
 
-    wget 
+    wget http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/UShER_SARS-CoV-2/2021/10/26/public-2021-10-26.all.masked.pb.gz
+    mv public-2021-10-26.all.masked.pb.gz public-latest.all.masked.pb.gz
   
 get all samples from the latest public tree.  
 
