@@ -13,6 +13,7 @@ get the files from this example and rename them as appropriate to match expectat
 
     wget http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/UShER_SARS-CoV-2/2021/10/26/public-2021-10-26.all.masked.pb.gz
     mv public-2021-10-26.all.masked.pb.gz public-latest.all.masked.pb.gz
+    wget https://raw.githubusercontent.com/russcd/systematic_error_workflow_example/main/sanger_v4_samples.txt
   
 get all samples from the latest public tree.  
 
