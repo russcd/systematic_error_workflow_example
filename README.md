@@ -4,8 +4,9 @@ Here we provide files and commands necessary to reproduce the analyses described
 
 ## commands 
 
-the snakefile is provided in the usher repository
-    ```git clone https://github.com/yatisht/usher.git
+the snakefile is provided in the usher repository.  
+
+    ```git clone https://github.com/yatisht/usher.git  
     cd usher/workflows/```
 
 get the files from this example
