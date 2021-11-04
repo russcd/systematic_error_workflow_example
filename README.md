@@ -14,6 +14,7 @@ get the files from this example and rename them as appropriate to match expectat
     wget http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/UShER_SARS-CoV-2/2021/10/26/public-2021-10-26.all.masked.pb.gz
     mv public-2021-10-26.all.masked.pb.gz public-latest.all.masked.pb.gz
     wget https://raw.githubusercontent.com/russcd/systematic_error_workflow_example/main/sanger_v4_samples.txt
+    wget https://github.com/russcd/systematic_error_workflow_example/raw/main/sanger_v4_samples.fa.xz && unxz https://github.com/russcd/systematic_error_workflow_example/raw/main/sanger_v4_samples.fa.xz
   
 get all samples from the latest public tree.  
 
@@ -34,5 +35,5 @@ swap tree file name to match the input expected from our Snakefile.
   
 now run our workflow but add the sanger samples.  
     
-    snakemake --use-conda --cores 4 --config FASTA="[FASTA]" RUNTYPE="systematic"
+    snakemake --use-conda --cores 4 --config FASTA="sanger_v4_samples.fa" RUNTYPE="systematic"
   
