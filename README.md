@@ -1,8 +1,8 @@
-# systematic error workflow example
+# Systematic error workflow example
 
 Here we provide files and commands necessary to reproduce the analyses described in virologival post when live. 
 
-## commands 
+## Commands 
 
 the snakefile is provided in the usher repository.  
 
