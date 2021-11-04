@@ -1,6 +1,6 @@
-# systematic_error_workflow_example
+# systematic error workflow example
 
-Here we provide files and commands necessary to reproduce the analyses described in XXX. 
+Here we provide files and commands necessary to reproduce the analyses described in virologival post when live. 
 
 ## commands 
 
@@ -37,3 +37,5 @@ now run our workflow but add the sanger samples.
     
     snakemake --use-conda --cores 4 --config FASTA="sanger_v4_samples.fa" RUNTYPE="systematic"
   
+## Acknowledgements 
+We thank COG-UK for providing the FASTA sequences. 
