@@ -1,6 +1,6 @@
 # Systematic error workflow example
 
-Here we provide files and commands necessary to reproduce the analyses described in virologival post when live. 
+Here we provide files and commands necessary to reproduce the analyses described in [Systematic Errors Associated with Some Implementations of ARTIC V4 and a Fast Workflow to Prescreen Samples for New Problematic Sites](https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473/16). 
 
 ## Commands 
 
